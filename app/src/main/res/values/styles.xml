@@ -1,0 +1,78 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="TextStyle">
+		<item name="android:layout_marginTop">2dp</item>
+		<item name="android:layout_marginBottom">2dp</item>
+		<item name="android:layout_marginLeft">2dp</item>
+		<item name="android:layout_marginRight">2dp</item>
+		<item name="android:textColor">@color/colorPrimaryText</item>
+	</style>
+
+	<style name="TextStyle.Heading" parent="TextStyle">
+		<item name="android:textSize">@dimen/text_size_14</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="TextStyle.SubHeading" parent="TextStyle">
+		<item name="android:textSize">@dimen/text_size_12</item>
+		<item name="android:textColor">@color/grey_dark</item>
+	</style>
+
+	<style name="TextStyle.Info" parent="TextStyle">
+		<item name="android:textStyle">italic|bold</item>
+		<item name="android:textColor">@color/colorPrimary</item>
+		<item name="android:textSize">@dimen/text_size_8</item>
+	</style>
+
+	<style name="TextStyle.Filters" parent="TextStyle">
+		<item name="android:textSize">@dimen/text_size_14</item>
+	</style>
+
+	<style name="TextStyle.Total" parent="TextStyle.Heading">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">@dimen/text_size_16</item>
+		<item name="android:textColor">@color/green</item>
+	</style>
+
+	<style name="TextStyle.Heading.Widget" parent="TextStyle">
+		<item name="android:textSize">@dimen/text_size_12</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="TextStyle.SubHeading.Widget" parent="TextStyle">
+		<item name="android:textSize">@dimen/text_size_8</item>
+		<item name="android:textColor">@color/grey_dark</item>
+	</style>
+
+	<style name="TextStyle.Total.Widget" parent="TextStyle.Heading">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">@dimen/text_size_10</item>
+		<item name="android:textColor">@color/green</item>
+	</style>
+
+	<style name="icon">
+		<item name="android:layout_width">@dimen/iconSize</item>
+		<item name="android:layout_height">@dimen/iconSize</item>
+		<item name="android:padding">@dimen/size_2</item>
+		<item name="android:tint">@color/colorPrimary</item>
+	</style>
+
+	<style name="CustomEditTextBusqueda">
+		<item name="android:background">@drawable/style_edit_text</item>
+		<item name="android:textCursorDrawable">@null</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:padding">10dp</item>
+		<item name="android:textSize">12sp</item>
+	</style>
+
+</resources>
